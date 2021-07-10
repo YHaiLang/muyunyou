@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PingFangSCRegular';
+    src: url('../fonts/PingFangSCRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "iconfont"; /* Project id 2498383 */
+    src: url('../fonts/iconfont.eot?t=1623819073395'); /* IE9 */
+    src: url('../fonts/iconfont.eot?t=1623819073395#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/iconfont.woff2?t=1623819073395') format('woff2'),
+         url('../fonts/iconfont.woff?t=1623819073395') format('woff'),
+         url('../fonts/iconfont.ttf?t=1623819073395') format('truetype'),
+         url('../fonts/iconfont.svg?t=1623819073395#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: 'PingFangSCRegular';
+}
+.center-wrap {
+    width: 1152px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
